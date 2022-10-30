@@ -27,6 +27,7 @@ let handler = async m => m.reply(`
 ┣➥ *Zeksapi* = apivinz
 ┣➥ *shizukaapi* = itsmeiky633
 ┣➥ *apivhtear* = 1BlnApiIkyPake
+┣➥ *Malesin* = malesin.xyz
 ┃ 「 *Pesan Dari My Owner* 」
 ┃ > *Trimakasih Telah Membantu*
 ┃ *Jalannya Bot Ini :)*
@@ -34,7 +35,7 @@ let handler = async m => m.reply(`
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['apikey']
 handler.tags = ['info']
-handler.command = /^apikey$/i
+handler.command = /^apikeyfree$/i
 handler.rowner = false
 handler.mods = false
 handler.premium = true
