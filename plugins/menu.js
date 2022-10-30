@@ -264,6 +264,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚆𝚊𝚔𝚝𝚞 𝙱𝙾𝚃 𝙱𝚎𝚛𝚓𝚊𝚕𝚊𝚗"}, 
 	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚜𝚒 𝚃𝚎𝚗𝚝𝚊𝚗𝚐 𝙾𝚠𝚗𝚎𝚛"},
 	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
+            {title: `📒 ${pmenus} 𝙵𝚁𝙴𝙴 𝙰𝙿𝙸𝙺𝙴𝚈`, rowId: ".apikeyfree", description: "Apikey Gratis Untuk Kamu><"},
 	]
     },{
 	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
@@ -274,6 +275,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
         title: `${htki} ᴍᴇɴᴜ ᴍᴇɴꜰᴇꜱꜱ ${htka}`,
         rows: [
             {title: `📮 ${pmenus} Menfess Balas`, rowId: ".menfess", description: "Fitur Mengirim Chat Ke Crush Kamu"},
+        ]
+    },{
+        title: `${htki} ᴍᴇɴᴜ ᴍᴇɴꜰᴇꜱꜱ 2 ${htka}`,
+        rows: [
+            {title: `🗞 ${pmenus} Menfess+Private Chat`, rowId: ".? menbalas", description: "Menu Menfess 2 + Private Chat"},
         ]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
