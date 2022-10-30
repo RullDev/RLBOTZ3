@@ -49,10 +49,10 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Elaina-MultiDevice',
+					description: 'Rull-MultiDevice',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pic)).buffer(),
-					sourceUrl: "https://github.com/ImYanXiao",					
+					sourceUrl: "https://github.com/RullDev",					
 				}
 			}
 		}
@@ -84,10 +84,10 @@ handler.all = async function (m) {
 			}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/Xiao_yan_21",
+            mediaUrl: "https://Instagram.com/khoirul36_",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/Xiao_yan_21", 
-            title: 'Elaina-MultiDevice',
+            description: "https://Instagram.com/khoirul36_", 
+            title: 'Rull-MultiDevice',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
@@ -98,7 +98,7 @@ global.fakefb = {
             mediaUrl: "https://Facebook.com/zuck",
             mediaType: "VIDEO",
             description: "https://www.Facebook.com/zuck", 
-            title: 'Elaina-MultiDevice',
+            title: 'Rull-MultiDevice',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -166,7 +166,7 @@ global.fakefb = {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Elaina-MultiDevice", 
+                           "description": "Rull-MultiDevice", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -199,7 +199,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "6285736178354-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Elaina", 
+                   "groupName": "Kawan Rull", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
