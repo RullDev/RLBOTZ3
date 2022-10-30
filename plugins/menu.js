@@ -278,12 +278,12 @@ if (teks == 'menbalas') tags = {
     },{
         title: `${htki} ᴍᴇɴᴜ ᴍᴇɴꜰᴇꜱꜱ ${htka}`,
         rows: [
-            {title: `📮 ${pmenus} Menfess Balas`, rowId: ".menfess", description: "Fitur Mengirim Chat Ke Crush Kamu"},
+            {title: `📮 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Fitur Mengirim Chat Ke Crush Kamu"},
         ]
     },{
-        title: `${htki} ᴍᴇɴᴜ ᴍᴇɴꜰᴇꜱꜱ 2 ${htka}`,
+        title: `${htki} ᴍᴇɴᴜ ʀᴇᴘᴏʀᴛ ${htka}`,
         rows: [
-            {title: `📮 ${pmenus} Menfess+Private Chat`, rowId: ".? menbalas", description: "Menu Menfess 2 + Private Chat"},
+            {title: `🛎 ${pmenus} Lapor Bug BOT`, rowId: ".report", description: "Jika Menemukan Bug Pilih Menu Lapor"},
         ]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
