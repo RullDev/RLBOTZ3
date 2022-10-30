@@ -185,9 +185,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
  if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw'
   }
-if (teks == 'menbalas') tags = {
-    'menbalas': 'Menfess'
-  }
   if (teks == 'nocategory') tags = {
     '': 'No Category'
   }
@@ -278,7 +275,7 @@ if (teks == 'menbalas') tags = {
     },{
         title: `${htki} ᴍᴇɴᴜ ᴍᴇɴꜰᴇꜱꜱ ${htka}`,
         rows: [
-            {title: `📮 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Fitur Mengirim Chat Ke Crush Kamu"},
+            {title: `📮 ${pmenus} Menfess Balas`, rowId: ".menfess", description: "Fitur Mengirim Chat Ke Crush Kamu"},
         ]
     },{
         title: `${htki} ᴍᴇɴᴜ ʀᴇᴘᴏʀᴛ ${htka}`,
