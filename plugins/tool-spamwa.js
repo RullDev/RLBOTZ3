@@ -19,4 +19,5 @@ handler.group = false
 handler.premium = false
 handler.private = true
 handler.limit = true
+handler.botAdmin = true
 export default handler
