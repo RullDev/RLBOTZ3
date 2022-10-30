@@ -270,6 +270,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	rows: [
 	    {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙾𝚠𝚗𝚎𝚛 𝙰𝚐𝚊𝚛 𝙻𝚎𝚋𝚒𝚑 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝'},
 	]
+    },{
+        title: `${htki} MENU MENFESS ${htka}`,
+        rows: [
+            {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan Semua command BOT"},
+        ]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
 	rows: [
