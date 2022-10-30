@@ -273,7 +273,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     },{
         title: `${htki} MENU MENFESS ${htka}`,
         rows: [
-            {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan Semua command BOT"},
+            {title: `💬 ${pmenus} Menfess Balas`, rowId: "main", description: "Fitur Menfess:)"},
         ]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
