@@ -5,7 +5,7 @@ let whmods = fs.readFileSync('./media/Sad:).opus')
 conn.sendFile(m.chat, whmods, '', '', m, true)
 }
 
-handler.customPrefix = /^(sad|nt|ntcuy|Nt|musikk)$/i
+handler.customPrefix = /^(song1)$/i
 handler.command = new RegExp
 
 handler.limit = true
