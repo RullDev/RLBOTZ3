@@ -19,5 +19,5 @@ handler.group = false
 handler.premium = false
 handler.private = true
 handler.limit = true
-handler.botAdmin = true
+handler.owner = true
 export default handler
