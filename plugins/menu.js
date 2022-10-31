@@ -285,6 +285,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
         rows: [
             {title: `🛎 ${pmenus} Lapor Bug BOT`, rowId: ".report", description: "Jika Menemukan Bug Pilih Menu Lapor"},
         ]
+    },{
+        title: `${htki} SAD SONGS ${htka}`,
+        rows: [
+            {title: `🎶 ${pmenus} Menu Lagu Sad`, rowId: ".sadlist", description: "List Menu Lagu Untukmu"},
+        ]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
 	rows: [
