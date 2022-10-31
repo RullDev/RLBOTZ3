@@ -60,7 +60,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'menfess', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -118,6 +118,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   }
   if (teks == 'stiker') tags = {
     'sticker': 'Stiker'
+  }
+  if (teks == 'menfess') tags = {
+    'menfes': 'Menfess Balas'
   }
   if (teks == 'kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
@@ -275,7 +278,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     },{
         title: `${htki} ᴍᴇɴᴜ ᴍᴇɴꜰᴇꜱꜱ ${htka}`,
         rows: [
-            {title: `📮 ${pmenus} Menfess Balas`, rowId: ".menfess", description: "Fitur Mengirim Chat Ke Crush Kamu"},
+            {title: `📮 ${pmenus} Menfess Balas`, rowId: ".? menfess", description: "Fitur Mengirim Chat Ke Crush Kamu"},
         ]
     },{
         title: `${htki} ᴍᴇɴᴜ ʀᴇᴘᴏʀᴛ ${htka}`,
