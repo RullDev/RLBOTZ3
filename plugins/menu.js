@@ -120,7 +120,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     'sticker': 'Stiker'
   }
   if (teks == 'menfess') tags = {
-    'menfes': 'Menfess Balas'
+    'menfess': 'Menfess Balas'
   }
   if (teks == 'kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
