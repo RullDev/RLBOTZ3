@@ -5,8 +5,9 @@ let whmods = fs.readFileSync('./media/Sad:).opus')
 conn.sendFile(m.chat, whmods, '', '', m, true)
 }
 
-handler.customPrefix = /^(song1)$/i
-handler.command = new RegExp
+handler.tags = ['songs']
+handler.help = ['.song1']
+handler.command = /^(song1)$/i
 
 handler.limit = true
 handler.mods = false 
