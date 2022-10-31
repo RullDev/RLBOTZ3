@@ -26,6 +26,6 @@ conn.sendMessage(m.chat, tm, m)
 }
 handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = /^dona(te|si)$/i
+handler.command = /^donasi$/i
 
 export default handler
