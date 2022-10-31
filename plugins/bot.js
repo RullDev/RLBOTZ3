@@ -6,7 +6,7 @@ conn.sendFile(m.chat, whmods, '', '', m, true)
 }
 
 handler.tags = ['songs']
-handler.help = ['.song1']
+handler.help = ['song1']
 handler.command = /^(song1)$/i
 
 handler.limit = true
