@@ -11,16 +11,17 @@ let anu = `Hallo mypren 👋
    *Dijamin On 24 Jam + Fast Respon*
           
 ━━━〔 ıll *HARGA* llı 〕━━ꕥ
-⬡ *1 BULAN* 20.000 
+⬡ *1 MINGGU*: ~7.000~ Diskon 6.000
+⬡ *1 BULAN*: 10.000 
 ⬡ *2 BULAN:* 30.000 
-⬡ *PERMANEN:* 20.000 
+⬡ *PERMANEN:* 75.000 
 ⬡ *Kalo Mau Ganti Nama Bot+Owner Cuma 5 k*
    Selengkapnya Chat Admin!
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
 ⬡ *GOPAY:* ${gopay}
-⬡ *OVO:* ${pulsa}
+⬡ *PULSA:* ${pulsa}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
@@ -32,10 +33,9 @@ Terimakasih yang sudah mendonasikan untuk bot
 Contact person jasa run bot:
 wa.me/${numberowner} (Owner)
 *Subscribe Youtube Owner*`
-  conn.sendButton(m.chat, anu, syt, flaaa.getRandom() + teks, [['Donasi', '.donasi'], ['SewaBot', '.sewabot']], m)
 }
-handler.help = ['jadibot']
 handler.tags = ['info']
+handler.help = ['jadibot']
 handler.command = /^(jadibot)$/i
 
 module.exports = handler
