@@ -1,7 +1,7 @@
 import fs from'fs'
 let { MessageType } = (await import('@adiwajshing/baileys')).default
 let handler = async (m, { conn }) => {
-let whmods = fs.readFileSync('./media/song4.opus') 
+let whmods = fs.readFileSync('./media/song4.mp3') 
 conn.sendFile(m.chat, whmods, '', '', m, true)
 }
 
