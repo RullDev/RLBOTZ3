@@ -60,7 +60,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'menfess', 'songs', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'menfess', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -121,9 +121,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   }
   if (teks == 'menfess') tags = {
     'menfess': 'Menfess Balas'
-  }
-  if (teks == 'songs') tags = {
-    'songs': 'Menu Lagu Sad'
   }
   if (teks == 'kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
@@ -288,9 +285,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
             {title: `🛎 ${pmenus} Lapor Bug BOT`, rowId: ".report", description: "Jika Menemukan Bug Pilih Menu Lapor"},
         ]
     },{
-        title: `${htki} SAD SONGS ${htka}`,
+        title: `${htki} ᴍᴇɴᴜ ᴊᴀᴅɪʙᴏᴛ ${htka}`,
         rows: [
-            {title: `🎶 ${pmenus} Menu Lagu Sad`, rowId: ".? songs", description: "List Menu Lagu Sad:)"},
+            {title: `🤖 ${pmenus} Jadi Bot`, rowId: ".jadibot", description: "Sewa Run Bot Pake Nomor Kamu"},
         ]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
@@ -644,7 +641,7 @@ const listMessage = {
 } })*/
 
     //------------------- 2BUTTON VID
-   // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ɪᴍ-ʏᴀɴxɪᴀᴏ', templateButtons: [{ quickReplyButton: { displayText: 'Speedtest⚡', id: `${_p}speedtest` }}, { quickReplyButton: { displayText: 'Owner🎀', id: `${_p}owner` }} ] })
+   // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: 'ᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ᴋʜʀʟᴍꜱᴛꜰᴀ', templateButtons: [{ quickReplyButton: { displayText: 'Speedtest⚡', id: `${_p}speedtest` }}, { quickReplyButton: { displayText: 'Owner🎀', id: `${_p}owner` }} ] })
     
     //------------------- Payment MENU
     /*await conn.relayMessage(m.chat,  {
