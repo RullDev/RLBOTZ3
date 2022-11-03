@@ -24,28 +24,30 @@ let fetch = require('node-fetch')
  `.trim() 
          await conn.reply(m.chat, caption, m, { contextInfo: { 
              externalAdReply: { 
-               sourceUrl: 'https://youtu.be/-tKVN2mAKRI', 
+               sourceUrl: 'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw', 
                title: 'Official group', 
-               body: 'Haruno Bot', 
+               body: 'Rull Bot', 
                thumbnail: pp 
              } 
          }}) 
      } catch (e) { 
          let tulisan = ` 
- *Join Juga Group Official Cute Bot!* 
+ *Join Juga Group Official Rull Bot!* 
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
- *Group 1* 
-https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID
+ *Group 1* 
+https://chat.whatsapp.com/D2NUDa6vk4I6hrS176mErV
+ *Grup 2*
+_*Coming Soon...*_
  
  `.trim() 
-     await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
+     await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', '🎈Rules', '.rules', m, {
     quoted: m,
     contextInfo: { forwardingScore: 99999, isForwarded: true,
         externalAdReply: {
         	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
-            title: 'Gruop Official',
-            body: '© Cute IQ-MD By Ziv San',
+            title: 'Grup Official',
+            body: '© RullBot By Rull Senpai',
           thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
         }
      }
