@@ -29,7 +29,7 @@ let handler = async (m, { conn }) => conn.send3ButtonImg(m.chat, await (await fe
 Tahulah berterimakasih sebab anda tidak perlu membayar untuk menggunakan bot ini, gunakan secara bijak, jangan berlebihan.
 
 Be a smart user and good luck!
-`.trim(), 'Kebijakan ©2022 By Ziv San', '⋮☰ Menu', '.menu', 'Owner', '.nowner', 'Donasi', '.donasi', m, {
+`.trim(), 'Kebijakan ©2022 By RullSenpai', '⋮☰ Menu', '.menu', 'Owner', '.nowner', 'Donasi', '.donasi', m, {
     quoted: m,
     contextInfo: {
         externalAdReply: {
