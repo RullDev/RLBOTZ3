@@ -268,6 +268,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚜𝚒 𝚃𝚎𝚗𝚝𝚊𝚗𝚐 𝙾𝚠𝚗𝚎𝚛"},
 	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
             {title: `📑 ${pmenus} 𝙵𝚁𝙴𝙴 𝙰𝙿𝙸𝙺𝙴𝚈`, rowId: ".apikeyfree", description: "Apikey Gratis Untuk Owner Bot"},
+            {title: `❗ ${pmenus} Syarat Dan Peraturan`, rowId: ".rules", description: "Budayakan Membaca Sebelum Menggunakan Bot"},
 	]
     },{
 	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
