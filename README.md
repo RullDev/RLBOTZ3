@@ -13,7 +13,7 @@ Memakai Sc Lain Untuk Mengambil Session Atau Kalau Kalian Masih pengguna Satu Se
 
 <h1 align="center">RullBOT - MD</h1>
 <p align="center">
-  <a href="https://github.com/RullDev"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Elaina+BOT+Multi+Device;Base+ori+by+BochilGaming;Recode+By+RullSenpai;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
+  <a href="https://github.com/RullDev"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Rull+BOT+Multi+Device;Base+ori+by+BochilGaming;Recode+By+RullSenpai;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
 </p>
 
 <p align="center">
@@ -31,12 +31,12 @@ Memakai Sc Lain Untuk Mengambil Session Atau Kalau Kalian Masih pengguna Satu Se
   <a href="https://www.instagram.com/Xiao_yan_21">
     <img align="left" alt="SIEGRIN | Instagram" width="24px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Instagram.svg" />
   </a> &nbsp;&nbsp;
-  <a href="mailto:yanxiao021@gmail.com">
+  <a href="mailto:khoirulmustofa767@gmail.com">
     <img align="left" alt="SIEGRIN | Gmail" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Gmail.svg" />
   </a> &nbsp;&nbsp;
 ---------
 
-## ```Whatsapp``` <a href="https://wa.me/6285736178354"> <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
+## ```Whatsapp``` <a href="https://wa.me/6287753812675"> <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
 [![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6281231079387) 
 ---------
 
@@ -60,6 +60,7 @@ Memakai Sc Lain Untuk Mengambil Session Atau Kalau Kalian Masih pengguna Satu Se
 - ✔️ | Tools 
 - ✔️ | Exec 
 - ✔️ | React 
+- ✔️ | Menfess Balas
 ---------
 
 ## `SETTING` ⚙️
