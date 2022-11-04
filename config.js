@@ -100,7 +100,7 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '                「 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 汉  」' //Main Watermark
-global.wm2 = '𝙍𝙪𝙡𝙡𝘽𝙊𝙏 𝗫 ᵂʰʸᶻᶻˣʸᵀᵉᵃᵐ'
+global.wm2 = '©ᴘᴀʀᴛ ᴏꜰꜰ ᴡʜʏᴢᴢxʏ-ᴛᴇᴀᴍ'
 global.wm3 = '⫹⫺ RullBOT'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
