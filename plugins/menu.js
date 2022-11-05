@@ -27,8 +27,8 @@ const defaultMenu = {
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
-⬡│☂︎ *Tanggal:* %week %weton
-⬡│☂︎ *Date:* %date
+⬡│☂︎ *Hari:* %week %weton
+⬡│☂︎ *Tanggal:* %date
 ⬡│☂︎ *Tanggal Islam:* %dateIslamic
 ┬│☂︎ *Waktu:* %time
 │╰────────────────···
@@ -318,6 +318,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+        ]
+    },{
+        title: `${htki} Info Lainya ${htka}`,
+        rows: [
+            {title: `☎ ${pmenus} Kata Penutup`, rowId: ".credits", description: "Terimakasih untuk user dan pembuat sc, Jika saya ada salah mohon maaf."},
 	]
   },
 ]
