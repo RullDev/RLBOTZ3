@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m) => {
-    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/5113d28af5b1741836fd5.jpg')
     //let wibu = `https://api.zacros.my.id/randomimg/loli`
     let res = await fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/anime/neko.txt')
     let txt = await res.text()
