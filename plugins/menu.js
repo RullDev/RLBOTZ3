@@ -327,7 +327,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   },
 ]
 
-let tek = `✧────···[ Dashboard ]···────✧
+let tek = `✧────···[ 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝 ]···────✧
 *${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
@@ -337,6 +337,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 │⬡ *${Object.keys(global.db.data.users).length}* Pengguna
 │⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+│⬡ *Hari:* %week %weton
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
