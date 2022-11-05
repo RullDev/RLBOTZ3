@@ -726,16 +726,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Kok Belum Tidur Kak? 🥱"
   if (time >= 4) {
-    res = "Pagi Kak🌄"
+    res = "Pagi Kak 🌆"
   }
   if (time >= 10) {
-    res = "Siang Kak ☀️"
+    res = "Siang Kak 🏙"
   }
   if (time >= 15) {
     res = "Sore Kak 🌇"
   }
   if (time >= 18) {
-    res = "Malam Kak 🌙"
+    res = "Malam Kak 🌃"
   }
   return res
 }
