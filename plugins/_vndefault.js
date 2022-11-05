@@ -5,7 +5,7 @@ let whmods = fs.readFileSync('./media/vndefault.opus')
 conn.sendFile(m.chat, whmods, '', '', m, true)
 }
 
-handler.customPrefix = /^(.menu|.help)$/i
+handler.customPrefix = /^(jadisad|hehe|🙂)$/i
 handler.command = new RegExp
 
 handler.limit = false
