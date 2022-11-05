@@ -25,7 +25,7 @@ let rules = `➯ *Tɪᴅᴀᴋ Sᴘᴀᴍ Bᴏᴛ*
 ⟬Lu Di Chet Ayang Lu Aja Lama Blesny⟭
 ➯ *Maksa Masukin Gc Lu*
 ⟬Minimal Donasi Lah Cuy Biar Cuan Gw⟭
-➯ *Chet Aneh² Di Cwe Gw, Gw Block Lu Hdup²*
+➯ *Chet Aneh² Di No Gw, Gw Block Lu Hdup²*
 ⟬Mɪɴɪᴍᴀʟ Nɢᴏᴛᴀᴋ⟭
 ❏┳━━◩
 ┍┛
