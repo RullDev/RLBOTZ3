@@ -9,7 +9,7 @@ const catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage, 
 "productId": "5489299044451325",
-"title": `Jasa Sewa Yushino Md`,
+"title": `Jasa Sewa Rull MD`,
 "description": `HALO BANG`,
 "currencyCode": "IDR",
 "bodyText": wm,
@@ -19,9 +19,9 @@ const catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
 "retailerId": wm,
-"url": "wa.me/6281361281833"
+"url": "wa.me/6287753812675"
 },
-"businessOwnerJid": "6281361281833@s.whatsapp.net",
+"businessOwnerJid": "6287753812675@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: ftroli })    
 
@@ -31,6 +31,6 @@ handler.help = ['donasi']
 handler.tags = ['main']
 handler.command = /^(donasi|donate)$/i
 
-handler.limit = true
+handler.limit = false
 
 export default handler
