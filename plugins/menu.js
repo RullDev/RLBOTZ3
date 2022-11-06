@@ -334,10 +334,11 @@ let tek = `✧────···[ 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝 ]···�
 │⬡ Aktif selama ${mpt}
 │⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │⬡ Prefix : [ ${_p} ]
-│⬡ *${Object.keys(global.db.data.users).length}* Pengguna
+│⬡ *${Object.keys(global.db.data.users).length}* Pengguna Bot
 │⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-│⬡ *Versi Bot:* ~MultiDevice V2~
+│⬡ *Versi Bot:* ~MultiDevice V3~
+│⬡ *Run Bot:* Heroku
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
@@ -346,9 +347,10 @@ let tek = `✧────···[ 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝 ]···�
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
 │
-│ 📮 *Note:* Jika menemukan bug, eror
-│atau kesulitan dalam penggunaan
-│silahkan laporkan/tanyakan kepada
+│📮 *Note:* Jika menemukan bug
+│eror atau kesulitan dalam
+│penggunaan silahkan
+│laporkan/tanyakan kepada
 │Owner Bot.
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
