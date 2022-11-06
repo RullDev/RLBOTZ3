@@ -74,8 +74,8 @@ global.mods = [] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
-global.lolkey = 'apikeymu'
-global.xkey = 'APIKEYMU'
+global.lolkey = '8dfb68ce0e528ecb3ec40cbe' //punya rull
+global.xkey = 'APIKEYMU' //punyarull
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
