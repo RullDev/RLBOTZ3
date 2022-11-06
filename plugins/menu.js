@@ -320,6 +320,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
         ]
     },{
+        title: `${htki} Menu Anonymous ${htka}`,
+        rows: [
+            {title: `🗨 RullChat `, rowId: ".start", description: "Menu Gabutnya Banh"},
+        ]
+    },{
         title: `${htki} Info Lainya ${htka}`,
         rows: [
             {title: `☎ ${pmenus} Kata Penutup`, rowId: ".credits", description: "Terimakasih untuk user dan pembuat sc, Jika saya ada salah mohon maaf."},
