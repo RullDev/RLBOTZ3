@@ -3,29 +3,13 @@ import moment from 'moment-timezone'
 import fetch from 'node-fetch'
 import fs from 'fs'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-const messa = await prepareWAMessageMedia({ image: fs.readFileSync('./media/ok.jpg') }, { upload: conn.waUploadToServer })
-const catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-"productMessage": {
-"product": {
-"productImage": messa.imageMessage, 
-"productId": "5489299044451325",
-"title": `Jasa Sewa Rull MD`,
-"description": `HALO BANG`,
-"currencyCode": "IDR",
-"bodyText": wm,
-"footerText": wm,
-"priceAmount1000": "3000",
-"productImageCount": 1,
-"firstImageId": 1,
-"salePriceAmount1000": "10000000",
-"retailerId": wm,
-"url": "wa.me/6287753812675"
-},
-"businessOwnerJid": "6287753812675@s.whatsapp.net",
-}
-}), { userJid: m.chat, quoted: ftroli })    
+Hai Kak Yuk Bantu Donasinya
+Biar Bot Online Trus😉🙏
 
-conn.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
+*Payment Gopay/Pulsa*
+*Number:* 087753812675
+
+Terimakasih Banyak Buat Kamu Yang Sudah Membantu Donasi Untuk Perkembangan Bot Ini><
 }
 handler.help = ['donasi']
 handler.tags = ['main']
