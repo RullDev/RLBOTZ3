@@ -8,8 +8,9 @@ Biar Bot Online Trus😉🙏
 
 *Payment Gopay/Pulsa*
 *Number:* 087753812675
+Saweria: https://saweria.co/RullZy
 
-Terimakasih Banyak Buat Kamu Yang Sudah Membantu Donasi Untuk Perkembangan Bot Ini><
+Terimakasih Banyak Buat Kamu Yang Sudah Mau Membantu Donasi Untuk Perkembangan Bot Ini><
 }
 handler.help = ['donasi']
 handler.tags = ['main']
