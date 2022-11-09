@@ -18,7 +18,7 @@ let info = `
 ┊⫹⫺ *Normal:* _${sn}k/Run Bot (1 bulan)_
 ┊⫹⫺ *Standar:* _${ss}k/Run Bot (2 bulan)_
 ┊⫹⫺ *Vip:* _${sp}k/Run Bot (12 bulan)_                                                      
-┊⫹⫺ *Ganti Nama Bot+Owner:* = _${sv}k/_
+┊⫹⫺ *Ganti Nama Bot+Owner:* = _${sv}k_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
@@ -31,7 +31,7 @@ let info = `
 
 *⫹⫺ PAYMENT:*
 • *Pulsa:* [${ppulsa}]
-• *Dana:* [${pdana}]
+• *Gopay/Dana:* [${pdana}]
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?
