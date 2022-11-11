@@ -302,6 +302,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
 	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
+        {title: `🎎 ${pmenus} Nonton Anime`, rowId: "", description: "Fitur Coming Soon (Dalam Perbaikan)"},
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagnean"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Untuk user premium"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
@@ -322,12 +323,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     },{
         title: `${htki} Menu Anonymous ${htka}`,
         rows: [
-            {title: `🗨 RullChat `, rowId: ".start", description: "Menu Gabutnya Banh"},
+            {title: `🗨 ${pmenus} RullChat `, rowId: ".start", description: "Bicara Dgn Orang Gak Dikenal"},
         ]
     },{
         title: `${htki} Info Lainya ${htka}`,
         rows: [
-            {title: `☎ ${pmenus} Kata Penutup`, rowId: ".credits", description: "Terimakasih untuk user dan pembuat sc, Jika saya ada salah mohon maaf."},
+            {title: `☎ ${pmenus} Kata Penutup`, rowId: ".credits", description: "Terimakasih untuk user dan pembuat sc."},
 	]
   },
 ]
