@@ -302,7 +302,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
 	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
-        {title: `🎎 ${pmenus} Nonton Anime`, rowId: "", description: "Fitur Coming Soon (Dalam Perbaikan)"},
+        {title: `🎎 ${pmenus} Nonton Anime`, rowId: ".websiteanime", description: "Nonton anime dan semoga waifumu nyata🗿"},
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagnean"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Untuk user premium"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
