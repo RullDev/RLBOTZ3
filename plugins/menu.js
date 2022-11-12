@@ -343,8 +343,8 @@ let tek = `✧────···[ 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝 ]···�
 │⬡ *${Object.keys(global.db.data.users).length}* Pengguna Bot
 │⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-│⬡ *Versi Bot:* ~MultiDevice V3~
-│⬡ *Run Bot:* Heroku
+│⬡ *Versi Bot:* ~MultiDevice V2~
+│⬡ *Run Bot:* Heroku 24 Jam
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
@@ -701,7 +701,7 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 
-handler.register = true
+handler.register = false
 handler.exp = 15
 
 export default handler
