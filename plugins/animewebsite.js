@@ -11,6 +11,8 @@ handler.help = ['websiteanime']
 handler.tags = ['info']
 handler.command = /^websiteanime$/i
 handler.premium = false
+handler.group = false
+handler.private = true
 
 handler.admin = false
 handler.botAdmin = false
