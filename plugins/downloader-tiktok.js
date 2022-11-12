@@ -4,7 +4,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let res = (await axios.get(API('males', '/tiktok', { url: args[0] } ))).data;
     if (res.status != 200) throw res.message;
     if (!res) throw res.message;
-    conn.sendButtonVid(m.chat, res.video, `*🎋Deskripsi:* ${res.title}\n${res.author ? `*🎐Pembuat Video:* ${res.author}` : '\n' }`.trim(), 'Cara simpan digalery:\n1. Download dulu videonya\n2. Buka terus klik titik 3 pojok kanan atas\n3. lalu klik simpan digaleri!', 'menu', usedPrefix + 'menu', m)
+    conn.sendButtonVid(m.chat, res.video, `*🎋Deskripsi:* ${res.title}\n${res.author ? `*🎐Pembuat Video:* ${res.author}` : '\n' }`.trim(), 'Cara simpan digalery:\n1. Download dulu videonya\n2. Buka terus klik titik 3 pojok kanan atas\n3. lalu klik simpan digaleri!', '🎈Menu', usedPrefix + 'menu', m)
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
