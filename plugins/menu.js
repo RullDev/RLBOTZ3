@@ -324,8 +324,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
         ]
-    },{
-        title: `${htki} 💤 ${pmenus} Gak Bisa Gunain Bot? Chat Owner Aja! ${htka}`,
 	    
     },{
         title: `${htki} Info Lainya ${htka}`,
