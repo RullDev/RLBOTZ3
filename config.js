@@ -75,7 +75,7 @@ global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user
 
 
 global.lolkey = '8dfb68ce0e528ecb3ec40cbe' //punya rull
-global.xkey = 'APIKEYMU' //punyarull
+global.xkey = '74faa6faaf53' //punyarull note sementara pakr zenzapis xteam lagi eror huhu
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
