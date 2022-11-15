@@ -90,7 +90,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 	}
 }
 handler.help = ['menugenshin']
-handler.tags = ['submenu']
+handler.tags = ['genshin']
 handler.command = /^(genshinm(enu)?|m(enu)?genshin)$/i
 
 export default handler
