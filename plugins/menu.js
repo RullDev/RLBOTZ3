@@ -122,8 +122,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   if (teks == 'menfess') tags = {
     'menfess': 'Menfess Balas'
   }
-  if (teks == 'submenu') tags = {
-    'submenu': 'GENSHIN IMPACT'
+  if (teks == 'genshin') tags = {
+    'genshin': 'GENSHIN IMPACT'
   }
   if (teks == 'kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
@@ -304,7 +304,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-        {title: `🐳 ${pmenus} GENSHIN IMPACT`, rowId: ".? submenu", description: "⊜ genshin.dev API"},
+        {title: `🐳 ${pmenus} GENSHIN IMPACT`, rowId: ".? genshin", description: "⊜ genshin.dev API"},
 	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
         {title: `🎎 ${pmenus} Nonton Anime`, rowId: ".websiteanime", description: "Nonton anime dan semoga waifumu nyata🗿"},
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagnean"},
