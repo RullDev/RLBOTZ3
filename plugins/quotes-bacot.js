@@ -15,18 +15,6 @@ ${pickRandom(global.bacot)}
             footer: wm,
             templateButtons: [
                 {
-                    urlButton: {
-                        displayText: '🌎 OFFICIAL GROUP',
-                        url: sgc
-                    }
-                },
-                {
-                    urlButton: {
-                        displayText: '📷 FOLLOW ME',
-                        url: sig
-                    }
-                },
-                {
                     quickReplyButton: {
                         displayText: 'NEXT',
                         id: '.bacot'
