@@ -36,7 +36,7 @@ ptt: false, seconds: 0,contextInfo: {
     description: 'www.instagram.com/khoirul36_',
     title: "Now Playing...",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/19aa29bfe0ec954f73f9b.jpg')).buffer(),
     sourceUrl: 'www.instagram.com/khoirul36_'
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
