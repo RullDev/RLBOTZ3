@@ -33,7 +33,7 @@ Genshin Impact JSON data with a robust searching API! Updated to version 2.8. So
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 	try {
-		let meh = padLead(ranNumb(10), 3)
+		let meh = padLead(ranNumb(39), 3)
 		let nais = fs.readFileSync(`./media/genshin_${meh}.jpg`)
 		let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
 		let menugenshin = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
@@ -82,7 +82,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 		], m)*/
 		conn.sendButton(m.chat, text.replace(`si <character>`, `si <character>${readMore}`).trim(), packname + ' - ' + author, nais, [
 			[`👥 Owner`, `.owner`],
-			[`🪡 Ping`, `.ping`]
+			[`💤 Next`, `.genshinmenu`]
 		], m)
 	} catch (e) {
 		conn.reply(m.chat, 'Maaf, menu genshin sedang error', m)
