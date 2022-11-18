@@ -34,7 +34,7 @@ Genshin Impact JSON data with a robust searching API! Updated to version 2.8. So
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 	try {
 		let meh = padLead(ranNumb(39), 3)
-		let nais = fs.readFileSync(`./media/picbot/genshin/genshin_${meh}.jpg`)
+		let nais = fs.readFileSync(`./media/genshin_${meh}.jpg`)
 		let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
 		let menugenshin = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
 			return {
