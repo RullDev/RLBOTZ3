@@ -60,7 +60,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'menfess', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'edukasi', 'news', 'random', 'game', 'xp', 'menfess', 'genshin', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -122,6 +122,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   }
   if (teks == 'menfess') tags = {
     'menfess': 'Confess Balas'
+  }
+  if (teks == 'genshin') tags = {
+    'genshin': 'GENSHIN IMPACT V2'
   }
   if (teks == 'kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
@@ -303,6 +306,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
         {title: `🐳 ${pmenus} GENSHIN IMPACT`, rowId: ".genshinmenu", description: "⊜ genshin.dev API"},
+        {title: `☄️ ${pmenus} GENSHIN IMPACT V2`, rowId: ".? genshin", description: "Genshin Maker Game"},
 	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
         {title: `🎎 ${pmenus} Nonton Anime`, rowId: ".websiteanime", description: "Nonton anime dan semoga waifumu nyata🗿"},
 	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagnean"},
