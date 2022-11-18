@@ -122,9 +122,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   if (teks == 'menfess') tags = {
     'menfess': 'Menfess Balas'
   }
-  if (teks == 'sound') tags = {
-    'sound': 'Kumpulan Sound Kane'
-  }
   if (teks == 'kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
   }
@@ -316,7 +313,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
 	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-        {title: `🎧 ${pmenus} Kumpulan Sound Kane`, rowId: ".? sound", description: "Kumpulan Lagu Keren Dan Kane"},
+        {title: `🎧 ${pmenus} Kumpulan Sound Kane`, rowId: ".soundmenu", description: "Pilih lagu keren sesukamu."},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
 	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
 	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
