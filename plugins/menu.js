@@ -346,7 +346,7 @@ let tek = `✧────···[ 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝 ]···�
 │⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 │⬡ *Versi Bot:* ~MultiDevice V2~
-│⬡ *Run Bot:* Heroku 24 Jam
+│⬡ *Run Bot:* Replit
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
@@ -698,6 +698,12 @@ const listMessage = {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
+  }
+  let vn = `./media/rull.opus`
+  conn.sendFile(m.chat, vn, 'Rull.Ganz', null, m, true, {
+type: 'audioMessage',
+ptt: true
+}
 }
 handler.help = ['menu2', 'help2', '?']
 handler.tags = ['main']
