@@ -698,12 +698,6 @@ const listMessage = {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
-  }
-  let vn = `./media/rull.opus`
-  conn.sendFile(m.chat, vn, 'Rull.Ganz', null, m, true, {
-type: 'audioMessage',
-ptt: true
-}
 }
 handler.help = ['menu2', 'help2', '?']
 handler.tags = ['main']
