@@ -100,7 +100,7 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '                「 BellaBotz 汉  」' //Main Watermark
-global.wm2 = '©Public Bot'
+global.wm2 = '©BelaaBotz'
 global.wm3 = '⫹⫺ BellaBOT'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
