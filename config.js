@@ -47,27 +47,27 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/khoirul36_' //Link Instagrammu
+global.sig = 'https://instagram.com/belaastore8_?igshid=YmMyMTA2M2Y=' //Link Instagrammu
 global.sgh = 'https://github.com/RullDev' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/D2NUDa6vk4I6hrS176mErV'
+global.sgc = 'https://youtube.com/@belacantik3150'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '087753812675' //Nomor Danamu
-global.ppulsa = '087753812675' //Nomor SimCard Yang Kamu Pake
+global.pdana = '-' //Nomor Danamu
+global.ppulsa = '-' //Nomor SimCard Yang Kamu Pake
 global.psaweria = 'https://saweria.com/RullZy' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285867238794' //Nomor Bot
-global.nomorown = '6287753812675' //Nomor Owner
-global.namebot = '𝙍𝙪𝙡𝙡𝘽𝙊𝙏' //Nama Bot
-global.nameown = 'KhrlMstfa' // Nama Owner
+global.nomorbot = '-' //Nomor Bot
+global.nomorown = '6285776385448' //Nomor Owner
+global.namebot = 'BellaBotz' //Nama Bot
+global.nameown = 'Bella' // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6287753812675', '❦ KhrlMstfa? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['6285776385448', '❦ Bella? 🎐', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -99,9 +99,9 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 汉  」' //Main Watermark
-global.wm2 = '©ᴘᴀʀᴛ ᴏꜰꜰ ᴡʜʏᴢᴢxʏ-ᴛᴇᴀᴍ'
-global.wm3 = '⫹⫺ RullBOT'
+global.wm = '                「 BellaBotz 汉  」' //Main Watermark
+global.wm2 = '©Public Bot'
+global.wm3 = '⫹⫺ BellaBOT'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
@@ -371,9 +371,9 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\nR\nu\nl\nl\-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎\nB\ne\nl\na\-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝙍𝙪𝙡𝙡𝘽𝙊𝙏'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ BellaBotz'
 
 global.multiplier = 38 // The higher, The harder levelup
 
