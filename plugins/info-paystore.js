@@ -24,8 +24,9 @@ let info = `
 
 *⫹⫺ PAYMENT:*
 • *Pulsa:* [${ppulsa}]
-• *Gopay/Dana:* [${pdana}]
+• *Dana:* [${pdana}]
 • *Qris:* wa.me/6285776385448
+• *Gopay:* Scan Di Katalog.
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?
