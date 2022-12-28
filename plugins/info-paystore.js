@@ -1,17 +1,19 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '7'
-let sn = '15'
+let sh = '2.500'
+let sn = '3.500'
 let dn = '10'
+let pn = '5.000'
 //premium
-let ph = '5'
-let pn = '20'
-let ppm = '70'
+let ph = '4'
+let pn = '8'
+let ppm = '10'
 let info = `
 ╭━━━━「 *SEWA BOT* 」
-┊⫹⫺ *Hemat:* _${sh}k/Grup (1 minggu)_
-┊⫹⫺ *Normal:* _~${sn}k~ Diskon: ${dn}k/Grup (1 bulan)_                                                    
+┊⫹⫺ *Perhari:* _${sh}k _
+┊⫹⫺ *Perbulan:* _${sn}k _  
+┊⫹⫺ *Permanen:* _${pn}k _
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM USER* 」
@@ -23,6 +25,7 @@ let info = `
 *⫹⫺ PAYMENT:*
 • *Pulsa:* [${ppulsa}]
 • *Gopay/Dana:* [${pdana}]
+• *Qris:* wa.me/6285776385448
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?
