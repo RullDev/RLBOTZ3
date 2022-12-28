@@ -293,7 +293,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     },{
         title: `${htki} ᴍᴇɴᴜ ᴊᴀᴅɪʙᴏᴛ ${htka}`,
         rows: [
-            {title: `🤖 ${pmenus} Rent This Bot`, rowId: ".sewa", description: "Mau Sewa Bot Kak? Info Lebih Lanjut,Klik Ini"},
+            {title: `🔖 ${pmenus} Rent This Bot`, rowId: ".sewa", description: "Mau Sewa Bot Kak? Info Lebih Lanjut,Klik Ini"},
+            {title: `🤖 ${pmenus} Jadibot Ke Developer`, rowId: ".jdibot", description: "Mau Jadibot Langsung Kedevelopernya!"},
         ]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
