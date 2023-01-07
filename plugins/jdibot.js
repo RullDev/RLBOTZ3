@@ -1,14 +1,6 @@
 import { createHash } from 'crypto'
 import fetch from 'node-fetch'
 
-let handler = async function (m, { text, usedPrefix, command }) {
-  const ultah = new Date(`${ultahowner} 00:00:01`)
-    const sekarat = new Date().getTime() 
-    const Kurang = ultah - sekarat
-    const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
-    const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
-    const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
-    const detek = Math.floor( Kurang % (1000 * 60) / 1000)
 let cap = `*OPEN JADIBOT BOT WA*
     
 Terutama Terimakasih Teruntuk Developer:
@@ -30,7 +22,7 @@ Terimakasih Juga Untuk Kang Banned:
   let buttonMessage= {
 'document':{'url':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw'},
 'mimetype':global.ddocx,
-'fileName':'「 RullV10」',
+'fileName':'「 Jadibot」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
@@ -40,7 +32,7 @@ Terimakasih Juga Untuk Kang Banned:
 'mediaUrl':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw',
 'mediaType':2,
 'previewType':'pdf',
-'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+'title':`namebot`,
 'body':`RulZy`,
 'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
 'sourceUrl':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw'}},
