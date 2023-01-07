@@ -67,7 +67,8 @@ global.nameown = 'Bella' // Nama Owner
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285776385448', '❦ Bella? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['6285776385448', '❦ Bella? 🎐', true]
+  ['6287753812675', '🗿 Rull', true]//Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -86,7 +87,7 @@ global.APIs = { // API Prefix
   ana: 'https://anabotofc.herokuapp.com/',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   violetics : 'https://violetics.pw', 
-  males : 'https://vhtears.com'
+  males : 'https://malesin.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
